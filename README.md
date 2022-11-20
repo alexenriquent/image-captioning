@@ -1,1 +1,2 @@
-# image-captioning
+# Image Captioning
+This project uses an adaptation of the transformer model architecture described in [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044) to create an image captioner. The decoder is primarily constructed from attention layers, using self-attention to process the sequence being generated, and using cross-attention to attend to the image.
